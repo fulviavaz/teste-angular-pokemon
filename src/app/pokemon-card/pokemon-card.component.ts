@@ -13,18 +13,9 @@ export class PokemonCardComponent {
   numero: number;
 
   pegarImagemPokemon() {
-    const numeroFormatado = this.leadingZero(this.numero);
 
-    return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${numeroFormatado}.png`;
+    return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${this.numero}.png`
   }
 
-  leadingZero(str: string | number, size = 3): string {
-    let s = String(str);
 
-    while (s.length < (size || 2)) {
-      s = '0' + s;
-    }
-
-    return s;
-  }
 }
