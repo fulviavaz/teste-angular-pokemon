@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  .photo {
+    width: 98px;
+    height: 96px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #565656;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .img {
+      width: 50%;
+    }
+
+  }
+
+  .content {
+    margin-left: 16px;
+    display: inline-block;
+
+    justify-content: center;
+    align-items: left;
+
+    .name {
+      color: rgba(0, 0, 0, 0.87);
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+
+    }
+
+    .description {
+      color: var(--advise-primary-plight, #565656);
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      width: 815px;
+      margin-top: -10px;
+
+    }
+  }
+
+}
