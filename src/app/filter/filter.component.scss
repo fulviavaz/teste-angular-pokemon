@@ -1,0 +1,53 @@
+.filter{
+  display: flex;
+  width:1440px;
+  padding:28px;
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+
+    .wrapp{
+      align-items: left;
+
+      .title{
+        color: rgba(0, 0, 0, 0.87);
+        font-family: Roboto;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+      }
+
+      .description{
+        color: #565656;
+        font-family: Roboto;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 44px;
+      }
+
+    }
+
+    .wrapp-input{
+
+      input{
+        width: 257px;
+        height: 40px;
+        border: 1px solid #BDBDBD;
+        border-radius: 4px;
+        background-color: #FFFFFF;
+        padding-left: 10px;
+        background-image: url('../../assets/Icon.svg');
+        background-repeat: no-repeat;
+        background-position: 95% center;
+
+
+      }
+    }
+
+  }
+}
