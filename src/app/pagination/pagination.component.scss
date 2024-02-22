@@ -1,0 +1,43 @@
+.pagination{
+  display: flex;
+  justify-content: end;
+  width: 1440px;
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .wrapp{
+      display: flex;
+      align-items: center;
+
+      .text{
+        color: rgba(0, 0, 0, 0.60);
+          margin-right:12px;
+          text-align: right;
+          font-family: "roboto";
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 450;
+          line-height: 24px;
+      }
+
+      .button{
+        width: 40px;
+        height: 40px;
+        padding: 8px;
+        background-color: #fff;
+        border:none;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+    }
+  }
+}
+    footer {
+      width: 1440px;
+      height: 31px;
+      background-color: #020202;
+    }

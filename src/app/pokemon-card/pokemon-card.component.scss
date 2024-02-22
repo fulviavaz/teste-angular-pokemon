@@ -1,8 +1,12 @@
+.card{
+  padding-left:28px;
+
 .container {
+
+  width: 1440px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   align-content: center;
 
@@ -52,4 +56,5 @@
     }
   }
 
+}
 }

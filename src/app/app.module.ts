@@ -10,6 +10,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { PokemonService } from './services/pokemon.service';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FilterComponent } from './filter/filter.component';
+import { LineComponent } from './line/line.component';
+import { PaginationComponent } from './pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FilterComponent } from './filter/filter.component';
     PokemonListComponent,
     PokemonCardComponent,
     NavbarComponent,
-    FilterComponent
+    FilterComponent,
+    LineComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,
