@@ -1,0 +1,36 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: 80px;
+  background-color:#020202;
+  padding-left:28px;
+  padding-right:28px;
+
+  .container{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+
+    .wrapp{
+
+      display: flex;
+      align-items: center;
+
+
+      .name {
+          color: #FFFFFFDE;
+          font-family: Roboto;
+          font-size: 21px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 44px;
+          margin-right:18px;
+        }
+
+    }
+
+
+  }
+}

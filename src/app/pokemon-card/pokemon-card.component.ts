@@ -12,7 +12,7 @@ export class PokemonCardComponent {
   @Input()
   numero: number;
 
-  pegarImagemPokemon() {
+  getImagePokemon() {
 
     return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${this.numero}.png`
   }
